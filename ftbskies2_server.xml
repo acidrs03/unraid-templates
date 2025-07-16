@@ -12,7 +12,7 @@
   <Overview>FTB Skies 2 Modded Minecraft Server[br][br][b]FTB Skies 2[/b][br]FTB Skies 2 is the sequel to the original floating-island survival experience. This updated modpack blends high-tech automation with new magical mechanics, offering an immersive world of quests, challenges, and creativity.[br][br]Setup:[br][li]Accept the EULA by setting the [b]EULA[/b] variable to [span style='color: #00E800;']true[/span].[br]Optional:[br][li]Add server operators via the [b]OPS[/b] variable (comma-separated usernames).</Overview>
   <Category>GameServers:</Category>
   <ExtraSearchTerms>minecraft</ExtraSearchTerms>
-  <Icon>https://cdn.feed-the-beast.com/blob/49/4951517d1bd2376e48d280427f95fd313c7aa778bddff582296651cfae7d7a9a.png</Icon>
+  <Icon>https://raw.githubusercontent.com/acidrs03/unraid-templates/refs/heads/main/images/ftbskies2.png</Icon>
   <DonateText>If you like my work please </DonateText>
   <DonateLink>https://ko-fi.com/acidrs</DonateLink>
   <Labels/>
