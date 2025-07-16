@@ -1,0 +1,82 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>FTBSkies2</Name>
+  <Repository>acidrs/ftbskies2:latest</Repository>
+  <Registry>https://hub.docker.com/repository/docker/acidrs/ftbskies2</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://github.com/acidrs03/ftbskies2-docker</Support>
+  <Project>https://feed-the-beast.com/modpack/129-ftb_skies</Project>
+  <Overview>FTB Skies 2 Modded Minecraft Server[br][br][b]FTB Skies 2[/b][br]FTB Skies 2 is the sequel to the original floating-island survival experience. This updated modpack blends high-tech automation with new magical mechanics, offering an immersive world of quests, challenges, and creativity.[br][br]Setup:[br][li]Accept the EULA by setting the [b]EULA[/b] variable to [span style='color: #00E800;']true[/span].[br]Optional:[br][li]Add server operators via the [b]OPS[/b] variable (comma-separated usernames).</Overview>
+  <Category>GameServers:</Category>
+  <ExtraSearchTerms>minecraft</ExtraSearchTerms>
+  <Icon>https://cdn.feed-the-beast.com/blob/49/4951517d1bd2376e48d280427f95fd313c7aa778bddff582296651cfae7d7a9a.png</Icon>
+  <Labels/>
+  <Config
+      Type="Path"
+      Name="Installed Location"
+      Target="/data"
+      Default="/mnt/user/appdata/ftbskies2/"
+      Mode="rw"
+      Description="Path to store the installed server files."
+      Display="always"
+      Required="true"
+      Mask="false">/mnt/user/appdata/ftbskies2/</Config>
+  <Config
+      Type="Variable"
+      Name="EULA"
+      Target="EULA"
+      Default="false"
+      Description="Do you agree to the Mojang EULA available at https://account.mojang.com/documents/minecraft_eula? Set to 'true' to accept."
+      Display="always"
+      Required="true"
+      Mask="false">false</Config>
+  <Config
+      Type="Variable"
+      Name="JVM_OPTS"
+      Target="JVM_OPTS"
+      Default="-Xms4096m -Xmx6144m"
+      Description="Java memory allocation options."
+      Display="always"
+      Required="false"
+      Mask="false">-Xms4096m -Xmx6144m</Config>
+  <Config
+      Type="Variable"
+      Name="OPS"
+      Target="OPS"
+      Default=""
+      Description="Comma-separated list of player usernames with operator privileges."
+      Display="always"
+      Required="false"
+      Mask="false"/>
+  <Config
+      Type="Variable"
+      Name="MOTD"
+      Target="MOTD"
+      Default="FTB Skies 2 Server Powered by Docker"
+      Description="Custom server message of the day."
+      Display="always"
+      Required="false"
+      Mask="false"/>
+  <Config
+      Type="Port"
+      Name="Port"
+      Target="25565"
+      Default="25565"
+      Mode="tcp"
+      Description="Port for Minecraft server traffic."
+      Display="always"
+      Required="false"
+      Mask="false">25565</Config>
+  <Config
+      Type="Variable"
+      Name="LEVEL"
+      Target="LEVEL"
+      Default="world"
+      Description="World save directory name."
+      Display="advanced"
+      Required="false"
+      Mask="false">world</Config>
+</Container>
