@@ -13,6 +13,8 @@
   <Category>GameServers:</Category>
   <ExtraSearchTerms>minecraft</ExtraSearchTerms>
   <Icon>https://cdn.feed-the-beast.com/blob/49/4951517d1bd2376e48d280427f95fd313c7aa778bddff582296651cfae7d7a9a.png</Icon>
+  <DonateText>If you like my work please </DonateText>
+  <DonateLink>https://ko-fi.com/acidrs</DonateLink>
   <Labels/>
   <Config
       Type="Path"
