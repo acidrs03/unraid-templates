@@ -7,7 +7,7 @@
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Support>https://github.com/acidrs03/ftbskies2-docker</Support>
+  <Support>https://forums.unraid.net/topic/192057-support-acidrs-ftb-skies-2/</Support>
   <Project>https://feed-the-beast.com/modpack/129-ftb_skies</Project>
   <Overview>FTB Skies 2 Modded Minecraft Server[br][br][b]FTB Skies 2[/b][br]FTB Skies 2 is the sequel to the original floating-island survival experience. This updated modpack blends high-tech automation with new magical mechanics, offering an immersive world of quests, challenges, and creativity.[br][br]Setup:[br][li]Accept the EULA by setting the [b]EULA[/b] variable to [span style='color: #00E800;']true[/span].[br]Optional:[br][li]Add server operators via the [b]OPS[/b] variable (comma-separated usernames).</Overview>
   <Category>GameServers:</Category>
